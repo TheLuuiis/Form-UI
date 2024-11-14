@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon"/>
+         <!-- LIBRERY -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <title>Form | UI</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../style/style.css">
+        <!-- JS -->
+        <script src="../js/index.js"></script>
+    </head>
+
+    <body>
+        <!-- Main -->
+        <div class="main">
+            <header>
+                <span>Logo</span>
+                <nav>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </nav>
+                <a href="#" class="login" id="view">Login</a>
+            </header>
+            <div class="container" id="container">
+                <!-- Login -->
+                <div class="container-form login" id="containerLogin">
+                    <box-icon name='x' rotate='90' color='#fff' class="botonCloset" id="botonCloset"></box-icon>
+                    <div class="description-form">
+                        <h1>Login</h1>
+                    </div>
+                    <form action="#" class="form">
+                        <div class="input">
+                            <input type="email" name="email" placeholder="Email" id="email">
+                            <box-icon name='envelope' type='solid' flip='horizontal' color='#162938' ></box-icon>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="password" placeholder="Password" id="password">
+                            <box-icon name='lock-alt' type='solid' flip='horizontal' color='#162938' ></box-icon>
+                        </div>
+                        <div class="container-checkbox">
+                            <div class="checkbox">
+                                <input type="checkbox" name="checkbox" id="checkbox" required>
+                                <span>Remember me</span>
+                            </div>
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="submit">Login</button>
+                        <div class="register">
+                            <span>Don't have an account?</span>
+                            <a href="#" id="register">Register</a>
+                        </div>
+                    </form>
+                </div>
+                <!-- Register -->
+                <div class="container-form form-register" id="containerRegister">
+                    <box-icon name='x' rotate='90' color='#fff' class="botonCloset" id="botonCloset"></box-icon>
+                    <div class="description-form">
+                        <h1>Registration</h1>
+                    </div>
+                    <form action="#" class="form">
+                        <div class="input">
+                            <input type="text" name="text" placeholder="Username" id="name">
+                            <box-icon type='solid' name='user' color='#162938'></box-icon>
+                        </div>
+                        <div class="input">
+                            <input type="email" name="email" placeholder="Email" id="email">
+                            <box-icon name='envelope' type='solid' flip='horizontal' color='#162938'></box-icon>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="password" placeholder="Password" id="password">
+                            <box-icon name='lock-alt' type='solid' flip='horizontal' color='#162938'></box-icon>
+                        </div>
+                        <div class="container-checkbox">
+                            <div class="checkbox">
+                                <input type="checkbox" name="checkbox" id="checkbox" required>
+                                <span>Remember me</span>
+                            </div>
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="submit">Register</button>
+                        <div class="register">
+                            <span>Already have an account?</span>
+                            <a href="#" id="login">Login</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <!-- ScrollReveal  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
+</html>
